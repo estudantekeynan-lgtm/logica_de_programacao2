@@ -56,3 +56,6 @@
 #     item ["preco"] -= item["preco"] * (porcentagem/100)
 #     print(f"O produto {item['nome']}agora custa {item['preco']:.2f}" e a categoria {item['categoria']})
 #     aplicar_desconto(produto,10)
+
+
+#sla
