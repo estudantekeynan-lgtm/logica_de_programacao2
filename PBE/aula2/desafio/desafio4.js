@@ -13,7 +13,7 @@ else if(idade >10&& idade <18){
     console.log("juvenil");
 } else if( idade>= 18 && idade <60){
     console.log("adulto");
-} else if (idade >=60){
+} else if (idade >60){
     console.log("Senior")
 } else{
     console.log("Você ainda é muito novo")
