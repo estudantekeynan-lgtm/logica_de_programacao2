@@ -1,0 +1,16 @@
+Texto para gerar README:
+
+Analise todo o workspace aberto, incluindo as pastas BCD, LIMA, PBE.
+
+Crie ou atualize o arquivo README.md na raiz do projeto com:
+
+- título do repositório;
+- descrição do projeto;
+- tecnologias utilizadas;
+- estrutura de pastas;
+- resumo dos exercícios de cada aula;
+- instruções para executar os arquivos com Node.js;
+- instruções de Git;
+- autor: Keynan Fellipe dos santos.
+
+Leia os arquivos existentes antes de escrever o README.
