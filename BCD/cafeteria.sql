@@ -15,3 +15,9 @@ CREATE Table produtos(
     
 
 );
+
+CREATE Table entrega(
+    num_entrega INT PRIMARY KEY,
+    hora DATE TIME,
+    
+)
