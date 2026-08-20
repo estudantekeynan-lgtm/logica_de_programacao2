@@ -29,32 +29,36 @@ A organização foi feita por módulos e aulas, com foco em prática e desenvolv
 logica_de_programacao2/
 ├── BCD/
 │   ├── aula1.py
-│   └── cafeteria.sql
+│   ├── cafeteria.sql
+│   └── clinica_medica/
+│       └── clinica.sql
 ├── LIMA/
-│   └── aula1/
-│       ├── index.htm
-│       ├── equipe.html
-│       └── Projeto/
-│           ├── index.html
-│           ├── cardapio.html
-│           ├── estoque.html
-│           ├── funcionarios.htm
-│           ├── pedidos.html
-│           ├── programa.htm
-│           └── smartcoffee_menu_clean.png
-├── PBE/
-│   ├── testes.py
+│   ├── da.html
 │   ├── aula1/
+│   │   ├── Projeto/
+│   │   │   ├── cardapio.html
+│   │   │   ├── equipe.html
+│   │   │   ├── estoque.html
+│   │   │   ├── funcionarios.htm
+│   │   │   ├── index.htm
+│   │   │   ├── index.html
+│   │   │   ├── pedidos.html
+│   │   │   └── programa.htm
+│   └── aula2/
+│       ├── index.html
+│       ├── index2.html
+│       └── imagens/
+├── PBE/
+│   ├── aula1/
+│   │   ├── atividade_final.js
 │   │   ├── aula1.js
 │   │   ├── aula2.js
 │   │   ├── aula3.js
 │   │   ├── aula4.js
-│   │   ├── atividade_final.js
 │   │   ├── desafio1.js
 │   │   └── desafio2.js
 │   ├── aula2/
 │   │   ├── package.json
-│   │   ├── package-lock.json
 │   │   ├── desafio/
 │   │   │   ├── desafio1.js
 │   │   │   ├── desafio2.js
@@ -66,15 +70,35 @@ logica_de_programacao2/
 │   │       ├── ex2.js
 │   │       ├── ex3.js
 │   │       └── ex4.js
-│   └── aula3/
-│       ├── teste.js
-│       ├── array/
-│       │   ├── array.js
-│       │   ├── array2.js
-│       │   ├── package.json
-│       │   └── package-lock.json
-│       └── EX/
-│           ├── ex5.js
+│   ├── aula3/
+│   │   ├── teste.js
+│   │   ├── array/
+│   │   │   ├── array.js
+│   │   │   ├── array2.js
+│   │   │   └── package.json
+│   │   └── EX/
+│   │       ├── ex5.js
+│   │       └── package.json
+│   ├── aula4/
+│   │   ├── js.js
+│   │   ├── desafio/
+│   │   │   ├── desafio1.js
+│   │   │   ├── desafio2.js
+│   │   │   ├── desafio3.js
+│   │   │   └── desafio4.js
+│   │   └── EX/
+│   │       ├── Ex1.js
+│   │       ├── Ex2.js
+│   │       └── Ex3.js
+│   └── aula5_sistemas/
+│       ├── d.js
+│       ├── Logistica/
+│       │   ├── app.js
+│       │   ├── calculadoraFrete.js
+│       │   └── package.json
+│       └── oficina/
+│           ├── app.js
+│           ├── funcoesOficina.js
 │           └── package.json
 ├── README.md
 ├── texto_para_gerar_readme
@@ -115,6 +139,23 @@ logica_de_programacao2/
 - `array/array.js` e `array2.js`: atividades com arrays e manipulação de dados.
 - `EX/ex5.js`: exercício final da aula 3.
 - `teste.js`: arquivo de teste e prática adicional.
+
+#### Aula 4
+
+- `js.js`: exercícios gerais de JavaScript.
+- `desafio/`: desafios avançados com 4 exercícios (desafio1.js a desafio4.js).
+- `EX/Ex1.js`, `Ex2.js`, `Ex3.js`: exercícios práticos da aula.
+
+#### Aula 5 - Sistemas
+
+- `Logistica/`: projeto de sistema de logística com cálculo de frete.
+  - `app.js`: aplicação principal do sistema de logística.
+  - `calculadoraFrete.js`: módulo para cálculo de frete.
+  - `package.json`: dependências do projeto.
+- `oficina/`: projeto de sistema de oficina.
+  - `app.js`: aplicação principal do sistema de oficina.
+  - `funcoesOficina.js`: módulo com funções específicas da oficina.
+  - `package.json`: dependências do projeto.
 
 ## Como executar os arquivos com Node.js
 
