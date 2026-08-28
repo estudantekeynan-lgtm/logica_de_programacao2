@@ -1,192 +1,79 @@
-# logica_de_programacao2
+<div align="center">
 
-Repositório do 2° Termo de Análise e Desenvolvimento de Sistemas (ADS), contendo atividades e exercícios de Lógica de Programação 2, abordando conceitos de Banco de Dados (BCD), Linguagem de Marcação (LIMA) e Programação Back-End (PBE).
+# Lógica de Programação 2
 
-## Descrição do projeto
+### Repositório acadêmico de Análise e Desenvolvimento de Sistemas
 
-Este projeto reúne exercícios, desafios e mini atividades desenvolvidas durante as aulas de:
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000000)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=ffffff)](https://nodejs.org/)[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=ffffff)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=ffffff)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=ffffff)](https://www.python.org/)[![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=ffffff)](https://www.w3schools.com/sql/)
 
-- BCD: banco de dados, modelagem e SQL;
-- LIMA: HTML, estrutura de páginas web e elementos de marcação;
-- PBE: JavaScript, lógica de programação, entrada/saída, condicionais e arrays.
+</div>
 
-A organização foi feita por módulos e aulas, com foco em prática e desenvolvimento progressivo das competências da disciplina.
+## Sobre o projeto
 
-## Tecnologias utilizadas
+Este repositório reúne atividades, exercícios e projetos desenvolvidos durante o **2º termo do curso de Análise e Desenvolvimento de Sistemas**, com foco na construção progressiva de conhecimentos em lógica de programação, desenvolvimento web, banco de dados e programação back-end.
 
-- JavaScript
-- Node.js
-- npm
-- HTML
-- SQL
-- Python
-- Git e GitHub
-- Biblioteca `readline-sync` para interação no terminal
+O conteúdo foi organizado por disciplinas e módulos para facilitar a consulta, o acompanhamento da evolução e a reutilização dos exemplos durante os estudos.
 
-## Estrutura de pastas
+## Conteúdos desenvolvidos
 
-```text
+| Módulo | Principais temas | Exemplos presentes no repositório |
+| --- | --- | --- |
+| **BCD — Banco de Dados** | Modelagem conceitual e lógica, entidades, relacionamentos e SQL | Clínica médica, cafeteria e oficina |
+| **LIMA — Linguagem de Marcação** | HTML semântico, formulários, páginas estáticas e CSS | Cardápio, currículo, site semântico e exercícios de revisão |
+| **PBE — Programação Back-End** | JavaScript, condicionais, arrays, funções, módulos e entrada de dados | Sistemas de logística, oficina e balança |
+
+## Tecnologias e ferramentas
+
+<div align="center">
+
+| Tecnologia | Aplicação nos estudos |
+| --- | --- |
+| **Python** | Exercícios introdutórios e atividades de apoio |
+| **HTML5** | Estruturação de páginas web |
+| **CSS3** | Estilização e organização visual |
+| **JavaScript** | Lógica, manipulação de dados e sistemas simples |
+| **Node.js** | Execução de aplicações JavaScript no back-end |
+| **SQL** | Criação e manipulação de bancos de dados |
+| **Git e GitHub** | Versionamento e documentação dos projetos |
+
+</div>
+
+## Organização do repositório
+
+```
 logica_de_programacao2/
 ├── BCD/
-│   ├── aula1.py
-│   ├── cafeteria.sql
-│   └── clinica_medica/
-│       └── clinica.sql
+│   ├── modelagens de banco de dados
+│   └── scripts SQL
 ├── LIMA/
-│   ├── da.html
-│   ├── aula1/
-│   │   ├── Projeto/
-│   │   │   ├── cardapio.html
-│   │   │   ├── equipe.html
-│   │   │   ├── estoque.html
-│   │   │   ├── funcionarios.htm
-│   │   │   ├── index.htm
-│   │   │   ├── index.html
-│   │   │   ├── pedidos.html
-│   │   │   └── programa.htm
-│   └── aula2/
-│       ├── index.html
-│       ├── index2.html
-│       └── imagens/
+│   ├── páginas HTML
+│   ├── exercícios de CSS
+│   └── projetos web
 ├── PBE/
-│   ├── aula1/
-│   │   ├── atividade_final.js
-│   │   ├── aula1.js
-│   │   ├── aula2.js
-│   │   ├── aula3.js
-│   │   ├── aula4.js
-│   │   ├── desafio1.js
-│   │   └── desafio2.js
-│   ├── aula2/
-│   │   ├── package.json
-│   │   ├── desafio/
-│   │   │   ├── desafio1.js
-│   │   │   ├── desafio2.js
-│   │   │   ├── desafio3.js
-│   │   │   ├── desafio4.js
-│   │   │   └── desafio5.js
-│   │   └── EX/
-│   │       ├── ex1.js
-│   │       ├── ex2.js
-│   │       ├── ex3.js
-│   │       └── ex4.js
-│   ├── aula3/
-│   │   ├── teste.js
-│   │   ├── array/
-│   │   │   ├── array.js
-│   │   │   ├── array2.js
-│   │   │   └── package.json
-│   │   └── EX/
-│   │       ├── ex5.js
-│   │       └── package.json
-│   ├── aula4/
-│   │   ├── js.js
-│   │   ├── desafio/
-│   │   │   ├── desafio1.js
-│   │   │   ├── desafio2.js
-│   │   │   ├── desafio3.js
-│   │   │   └── desafio4.js
-│   │   └── EX/
-│   │       ├── Ex1.js
-│   │       ├── Ex2.js
-│   │       └── Ex3.js
-│   └── aula5_sistemas/
-│       ├── d.js
-│       ├── Logistica/
-│       │   ├── app.js
-│       │   ├── calculadoraFrete.js
-│       │   └── package.json
-│       └── oficina/
-│           ├── app.js
-│           ├── funcoesOficina.js
-│           └── package.json
-├── README.md
-├── texto_para_gerar_readme
-└── .git/
+│   ├── exercícios de JavaScript
+│   ├── desafios de lógica
+│   └── sistemas simples com Node.js
+├── instalações.js
+└── README.md
 ```
 
-## Resumo dos exercícios por aula
+## Como executar os projetos JavaScript
 
-### BCD
-
-- `BCD/aula1.py`: atividade relacionada à modelagem de clientes e definição de atributos, com foco em noções de chave primária e estrutura de entidades.
-- `BCD/cafeteria.sql`: script SQL para criação de tabela de cafeteria, com exemplo de dados e organização de banco de dados.
-
-### LIMA
-
-- `LIMA/aula1/index.htm`: introdução ao HTML, estruturas básicas e uso de tags.
-- `LIMA/aula1/equipe.html`: página de equipe com marcação em HTML.
-- `LIMA/aula1/Projeto/`: conjunto de páginas para um projeto de cafeteria, incluindo `index.html`, `cardapio.html`, `estoque.html`, `funcionarios.htm`, `pedidos.html` e `programa.htm`.
-
-### PBE
-
-#### Aula 1
-
-- `aula1.js`: primeiro contato com JavaScript e mensagens no terminal.
-- `aula2.js`: continuação da lógica básica em JavaScript.
-- `aula3.js` e `aula4.js`: exercícios de aprendizagem e desenvolvimento de scripts.
-- `atividade_final.js`: atividade integradora da aula.
-- `desafio1.js` e `desafio2.js`: desafios propostos para prática.
-
-#### Aula 2
-
-- `EX/ex1.js` a `ex4.js`: exercícios de leitura de dados e validação de crédito/entrada de usuário.
-- `desafio/`: desafios extra com lógica e condicionais.
-- `package.json`: arquivo de dependências com `readline-sync`.
-
-#### Aula 3
-
-- `array/array.js` e `array2.js`: atividades com arrays e manipulação de dados.
-- `EX/ex5.js`: exercício final da aula 3.
-- `teste.js`: arquivo de teste e prática adicional.
-
-#### Aula 4
-
-- `js.js`: exercícios gerais de JavaScript.
-- `desafio/`: desafios avançados com 4 exercícios (desafio1.js a desafio4.js).
-- `EX/Ex1.js`, `Ex2.js`, `Ex3.js`: exercícios práticos da aula.
-
-#### Aula 5 - Sistemas
-
-- `Logistica/`: projeto de sistema de logística com cálculo de frete.
-  - `app.js`: aplicação principal do sistema de logística.
-  - `calculadoraFrete.js`: módulo para cálculo de frete.
-  - `package.json`: dependências do projeto.
-- `oficina/`: projeto de sistema de oficina.
-  - `app.js`: aplicação principal do sistema de oficina.
-  - `funcoesOficina.js`: módulo com funções específicas da oficina.
-  - `package.json`: dependências do projeto.
-
-## Como executar os arquivos com Node.js
-
-Certifique-se de ter o Node.js instalado no computador.
-
-1. Verifique a instalação:
+Antes de começar, instale o [Node.js](https://nodejs.org/) e o npm. Para verificar se a instalação foi concluída, execute:
 
 ```bash
 node -v
 npm -v
 ```
 
-2. Navegue até a pasta do exercício:
+Para executar um exercício simples:
 
 ```bash
 cd PBE/aula1
-```
-
-3. Execute o arquivo JavaScript:
-
-```bash
 node aula1.js
 ```
 
-4. Para arquivos que usam dependências externas, instale os pacotes primeiro:
-
-```bash
-npm install
-```
-
-Exemplo de execução em uma pasta com `readline-sync`:
+Para projetos que possuem dependências:
 
 ```bash
 cd PBE/aula2
@@ -194,49 +81,32 @@ npm install
 node EX/ex1.js
 ```
 
-## Instruções de Git
-
-Inicialize o repositório (se necessário):
+Outro exemplo de aplicação organizada com `package.json`:
 
 ```bash
-git init
+cd PBE/aula7
+npm install
+node appBalanca.js
 ```
 
-Adicione os arquivos:
+## Objetivos de aprendizagem
 
-```bash
-git add .
-```
+Este projeto tem como objetivo fortalecer a base em programação e registrar a evolução prática em temas essenciais para o desenvolvimento de sistemas. Entre os principais objetivos estão a resolução de problemas por meio de algoritmos, a criação de páginas web, a modelagem de dados e o desenvolvimento de aplicações simples com JavaScript e Node.js.
 
-Crie um commit:
+## Sobre mim
 
-```bash
-git commit -m "Primeiro commit do projeto"
-```
+Meu nome é **Keynan Santos**. Atualmente, estou cursando **Desenvolvimento de Sistemas no SENAI Luiz Varga** e sou aluno do **SESI CE 005**. Tenho interesse em desenvolvimento de software, lógica de programação, aplicações web e evolução contínua por meio de projetos práticos.
 
-Conecte ao GitHub:
+### Tecnologias em estudo
 
-```bash
-git remote add origin <URL_DO_REPOSITORIO>
-```
+`Python` · `HTML` · `CSS` · `JavaScript` · `Node.js` · `SQL` · `Git` · `GitHub`
 
-Envie as alterações:
+## Contato e portfólio
 
-```bash
-git push -u origin main
-```
+Você pode acompanhar minha evolução e meus próximos projetos pelo meu [perfil no GitHub](https://github.com/estudantekeynan-lgtm).
 
-Se o branch padrão for `master`, use:
+<div align="center">
 
-```bash
-git branch -M master
-git push -u origin master
-```
+### Obrigado por visitar este repositório!
 
-## Autor
-
-- Keynan Fellipe dos santos
-
-## Observação
-
-Este repositório foi montado como material de estudo e prática acadêmica, com foco em exercícios de lógica, desenvolvimento web e introdução ao backend com JavaScript.
+</div>
