@@ -1,16 +1,16 @@
-# logica_de_programacao2
+# Lógica de Programação 2
 
-Repositório do 2° Termo de Análise e Desenvolvimento de Sistemas (ADS), contendo atividades e exercícios de Lógica de Programação 2, abordando conceitos de Banco de Dados (BCD), Linguagem de Marcação (LIMA) e Programação Back-End (PBE).
+Repositório acadêmico do 2º termo de Análise e Desenvolvimento de Sistemas (ADS), contendo atividades, exercícios e projetos de Lógica de Programação 2, Banco de Dados (BCD), Linguagem de Marcação (LIMA) e Programação Back-End (PBE).
 
 ## Descrição do projeto
 
-Este projeto reúne exercícios, desafios e mini atividades desenvolvidas durante as aulas de:
+Este repositório reúne práticas realizadas durante as aulas e contém materiais de estudo focados em:
 
-- BCD: banco de dados, modelagem e SQL;
-- LIMA: HTML, estrutura de páginas web e elementos de marcação;
-- PBE: JavaScript, lógica de programação, entrada/saída, condicionais e arrays.
+- Banco de Dados: modelagem de dados, entidades, relacionamentos e SQL;
+- HTML e estruturas web: marcação, elementos semânticos e páginas estáticas;
+- JavaScript e backend: variáveis, condicionais, arrays, funções, leitura de dados e sistemas simples.
 
-A organização foi feita por módulos e aulas, com foco em prática e desenvolvimento progressivo das competências da disciplina.
+A organização do conteúdo foi feita por módulos e aulas, com foco em exercícios práticos e desenvolvimento progressivo de competências de programação e web.
 
 ## Tecnologias utilizadas
 
@@ -21,33 +21,59 @@ A organização foi feita por módulos e aulas, com foco em prática e desenvolv
 - SQL
 - Python
 - Git e GitHub
-- Biblioteca `readline-sync` para interação no terminal
+- Biblioteca `readline-sync`
+- Banco de dados relacional com scripts SQL
 
-## Estrutura de pastas
+## Estrutura do projeto
 
 ```text
 logica_de_programacao2/
 ├── BCD/
 │   ├── aula1.py
+│   ├── aula4/
+│   │   ├── anotacao.txt
+│   │   ├── clinica_medica_conceitual.brM
+│   │   ├── clinica_medica_logico.brM
+│   │   ├── Conceitual_Cafeteria.brM
+│   │   ├── script_banco_dados_att_clinica.sql
+│   │   └── script_banco_de_dados_clinica.sql
+│   ├── aula5/
+│   │   ├── script_banco_dados_att_clinica.sql
+│   │   └── script_banco_dados_cafeteria.sql
+│   ├── Aula6/
+│   │   ├── CONCEITUAL_Oficina_Keynan.brM
+│   │   └── oficina_Keynan.sql
 │   ├── cafeteria.sql
 │   └── clinica_medica/
 │       └── clinica.sql
 ├── LIMA/
 │   ├── da.html
 │   ├── aula1/
-│   │   ├── Projeto/
-│   │   │   ├── cardapio.html
-│   │   │   ├── equipe.html
-│   │   │   ├── estoque.html
-│   │   │   ├── funcionarios.htm
-│   │   │   ├── index.htm
-│   │   │   ├── index.html
-│   │   │   ├── pedidos.html
-│   │   │   └── programa.htm
-│   └── aula2/
-│       ├── index.html
-│       ├── index2.html
-│       └── imagens/
+│   │   └── Projeto/
+│   │       ├── cardapio.html
+│   │       ├── equipe.html
+│   │       ├── estoque.html
+│   │       ├── funcionarios.htm
+│   │       ├── index.htm
+│   │       ├── index.html
+│   │       ├── pedidos.html
+│   │       └── programa.htm
+│   ├── aula2/
+│   │   ├── index.html
+│   │   ├── index2.html
+│   │   └── imagens/
+│   ├── aula3/
+│   │   ├── Curriculo/
+│   │   ├── SITE_SEMANTICO/
+│   │   └── treino/
+│   └── aula6/
+│       ├── atividade_revisao.html
+│       ├── index_externo.html
+│       ├── index_inline.html
+│       ├── index_listas.html
+│       ├── index.interno.html
+│       ├── revisao.css
+│       └── style.css
 ├── PBE/
 │   ├── aula1/
 │   │   ├── atividade_final.js
@@ -90,103 +116,110 @@ logica_de_programacao2/
 │   │       ├── Ex1.js
 │   │       ├── Ex2.js
 │   │       └── Ex3.js
-│   └── aula5_sistemas/
-│       ├── d.js
-│       ├── Logistica/
-│       │   ├── app.js
-│       │   ├── calculadoraFrete.js
-│       │   └── package.json
-│       └── oficina/
-│           ├── app.js
-│           ├── funcoesOficina.js
-│           └── package.json
+│   ├── aula5_sistemas/
+│   │   ├── d.js
+│   │   ├── Logistica/
+│   │   │   ├── app.js
+│   │   │   ├── calculadoraFrete.js
+│   │   │   └── package.json
+│   │   └── oficina/
+│   │       ├── app.js
+│   │       ├── funcoesOficina.js
+│   │       └── package.json
+│   ├── aula6/
+│   │   ├── package.json
+│   │   ├── trycat.js
+│   │   ├── trycat2.js
+│   │   ├── trycat3.js
+│   │   └── trycat4.js
+│   ├── aula7/
+│   │   ├── appBalanca.js
+│   │   ├── funcoes_balanca.js
+│   │   └── package.json
+│   └── aula8_ap/
+│       └── apresentacao.js
 ├── README.md
+├── instalações.js
 ├── texto_para_gerar_readme
 └── .git/
 ```
 
-## Resumo dos exercícios por aula
+## Resumo das atividades por módulo
 
 ### BCD
 
-- `BCD/aula1.py`: atividade relacionada à modelagem de clientes e definição de atributos, com foco em noções de chave primária e estrutura de entidades.
-- `BCD/cafeteria.sql`: script SQL para criação de tabela de cafeteria, com exemplo de dados e organização de banco de dados.
+- `BCD/aula1.py`: atividades iniciais de banco de dados, com foco em estrutura de dados e modelagem de entidades.
+- `BCD/cafeteria.sql`: script SQL para criação de tabela e organização de dados de uma cafeteria.
+- `BCD/aula4/`: modelagem conceitual e lógica de banco de dados para clínica e cafeteria.
+- `BCD/aula5/`: scripts atualizados e complementares para banco de dados e relacionamento de entidades.
+- `BCD/Aula6/`: modelagem de oficina e script SQL relacionado ao projeto.
+- `BCD/clinica_medica/clinica.sql`: arquivo de estrutura do banco da clínica médica.
 
 ### LIMA
 
-- `LIMA/aula1/index.htm`: introdução ao HTML, estruturas básicas e uso de tags.
-- `LIMA/aula1/equipe.html`: página de equipe com marcação em HTML.
-- `LIMA/aula1/Projeto/`: conjunto de páginas para um projeto de cafeteria, incluindo `index.html`, `cardapio.html`, `estoque.html`, `funcionarios.htm`, `pedidos.html` e `programa.htm`.
+- `LIMA/da.html`: arquivo inicial de HTML para estudo da linguagem de marcação.
+- `LIMA/aula1/Projeto/`: conjunto de páginas estáticas de um projeto de cafeteria, com múltiplos arquivos HTML.
+- `LIMA/aula2/`: estudo de estrutura HTML e imagens com páginas de exemplo.
+- `LIMA/aula3/`: conteúdo focado em currículo, site semântico e páginas de treino.
+- `LIMA/aula6/`: exercícios de revisão com listas, CSS e páginas internas/externas.
 
 ### PBE
 
 #### Aula 1
 
-- `aula1.js`: primeiro contato com JavaScript e mensagens no terminal.
-- `aula2.js`: continuação da lógica básica em JavaScript.
-- `aula3.js` e `aula4.js`: exercícios de aprendizagem e desenvolvimento de scripts.
-- `atividade_final.js`: atividade integradora da aula.
-- `desafio1.js` e `desafio2.js`: desafios propostos para prática.
+- `PBE/aula1/aula1.js` a `aula4.js`: exercícios introdutórios de JavaScript.
+- `PBE/aula1/atividade_final.js`: atividade final da unidade.
+- `PBE/aula1/desafio1.js` e `desafio2.js`: desafios de lógica e lógica condicional.
 
 #### Aula 2
 
-- `EX/ex1.js` a `ex4.js`: exercícios de leitura de dados e validação de crédito/entrada de usuário.
-- `desafio/`: desafios extra com lógica e condicionais.
-- `package.json`: arquivo de dependências com `readline-sync`.
+- `PBE/aula2/EX/`: exercícios de entrada de dados, validações e lógica.
+- `PBE/aula2/desafio/`: desafios complementares com condições e operações matemáticas.
+- `PBE/aula2/package.json`: arquivo com dependência `readline-sync`.
 
 #### Aula 3
 
-- `array/array.js` e `array2.js`: atividades com arrays e manipulação de dados.
-- `EX/ex5.js`: exercício final da aula 3.
-- `teste.js`: arquivo de teste e prática adicional.
+- `PBE/aula3/array/`: atividades com arrays e manipulação de dados.
+- `PBE/aula3/EX/ex5.js`: exercício final da aula.
+- `PBE/aula3/teste.js`: arquivo de treino e validação.
 
 #### Aula 4
 
-- `js.js`: exercícios gerais de JavaScript.
-- `desafio/`: desafios avançados com 4 exercícios (desafio1.js a desafio4.js).
-- `EX/Ex1.js`, `Ex2.js`, `Ex3.js`: exercícios práticos da aula.
+- `PBE/aula4/js.js`: exercícios gerais de JavaScript.
+- `PBE/aula4/desafio/`: desafios de lógica e programação estruturada.
+- `PBE/aula4/EX/`: exercícios práticos da disciplina.
 
 #### Aula 5 - Sistemas
 
-- `Logistica/`: projeto de sistema de logística com cálculo de frete.
-  - `app.js`: aplicação principal do sistema de logística.
-  - `calculadoraFrete.js`: módulo para cálculo de frete.
-  - `package.json`: dependências do projeto.
-- `oficina/`: projeto de sistema de oficina.
-  - `app.js`: aplicação principal do sistema de oficina.
-  - `funcoesOficina.js`: módulo com funções específicas da oficina.
-  - `package.json`: dependências do projeto.
+- `PBE/aula5_sistemas/Logistica/`: aplicação de cálculo de frete.
+- `PBE/aula5_sistemas/oficina/`: sistema simples de oficina com funções e lógica de negócio.
+- `PBE/aula5_sistemas/d.js`: arquivo adicional de apoio ao módulo de sistemas.
 
-## Como executar os arquivos com Node.js
+#### Aula 6 e 7
 
-Certifique-se de ter o Node.js instalado no computador.
+- `PBE/aula6/`: exercícios de lógica e prática com JavaScript e dependências do projeto.
+- `PBE/aula7/`: aplicação de balança com funções organizadas em módulo separado.
+- `PBE/aula8_ap/`: apresentação e atividade de conclusão.
 
-1. Verifique a instalação:
+## Como executar os arquivos JavaScript
+
+Certifique-se de que o Node.js e o npm estejam instalados.
+
+### Verificar instalação
 
 ```bash
 node -v
 npm -v
 ```
 
-2. Navegue até a pasta do exercício:
+### Executar um arquivo
 
 ```bash
 cd PBE/aula1
-```
-
-3. Execute o arquivo JavaScript:
-
-```bash
 node aula1.js
 ```
 
-4. Para arquivos que usam dependências externas, instale os pacotes primeiro:
-
-```bash
-npm install
-```
-
-Exemplo de execução em uma pasta com `readline-sync`:
+### Quando houver dependências externas
 
 ```bash
 cd PBE/aula2
@@ -194,39 +227,47 @@ npm install
 node EX/ex1.js
 ```
 
+### Executar qualquer projeto com package.json
+
+```bash
+cd PBE/aula7
+npm install
+node appBalanca.js
+```
+
 ## Instruções de Git
 
-Inicialize o repositório (se necessário):
+### Inicializar o repositório
 
 ```bash
 git init
 ```
 
-Adicione os arquivos:
+### Adicionar arquivos
 
 ```bash
 git add .
 ```
 
-Crie um commit:
+### Criar commit
 
 ```bash
 git commit -m "Primeiro commit do projeto"
 ```
 
-Conecte ao GitHub:
+### Conectar ao GitHub
 
 ```bash
 git remote add origin <URL_DO_REPOSITORIO>
 ```
 
-Envie as alterações:
+### Enviar alterações
 
 ```bash
 git push -u origin main
 ```
 
-Se o branch padrão for `master`, use:
+Se o repositório usar `master` em vez de `main`, execute:
 
 ```bash
 git branch -M master
@@ -239,4 +280,4 @@ git push -u origin master
 
 ## Observação
 
-Este repositório foi montado como material de estudo e prática acadêmica, com foco em exercícios de lógica, desenvolvimento web e introdução ao backend com JavaScript.
+Este repositório foi desenvolvido como material de estudo e prática acadêmica para reforçar conceitos de lógica, desenvolvimento web e introdução ao backend com JavaScript.
