@@ -1,0 +1,10 @@
+div{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+    
+}
