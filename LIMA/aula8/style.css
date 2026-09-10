@@ -1,3 +1,43 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 10px;
+}
+header{
+    background-color: darkblue;
+    color: white;
+}
+ nav{
+    color: white;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+header h1{
+    font-weight: bold;
+    font-size: 30px;
+}
+main{
+    margin: 30px;
+}
+section{
+    border: 30px solid black;
+    border-width: 30px;
+    border-color: black;
+    padding: 20px;
+}
+.servicos{
+    background-color: aliceblue;
+    margin: 20px;
+    padding: 15px;
+    
+    border: 10px solid aliceblue;
+}
+
 div{
     width: 40px;
     height: 40px;
@@ -7,4 +47,5 @@ div{
     padding: 20px;
     gap: 20px;
     
+
 }
