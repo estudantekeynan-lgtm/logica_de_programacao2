@@ -1,0 +1,36 @@
+int auto_increment primary key
+varchar(50) not null
+date not null
+time not nul
+
+
+
+
+
+tipo de dado : int 
+campo atribuido :primary key
+auto incrementa
+
+tipo de dado: Varchar
+campo obrigatorio: not null
+
+
+
+tipo de dado: Varchar
+campo obrigatorio: not null
+unico : unique
+
+
+tipo de dado : date
+campo obrigatorio: not null 
+
+
+tipo de dado : decimal
+campo obrigatorio: not null
+
+tipo de dado : float
+campo obrigatorio: not null
+
+
+tipo de dado: Time
+campo obrigatorio: not null

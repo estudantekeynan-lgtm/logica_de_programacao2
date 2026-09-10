@@ -1,0 +1,154 @@
+header  {
+   text-align: center;
+   background-color:blue;
+    color: white;
+    padding: 10px;
+    
+    
+}
+
+header a{
+    color: white;
+    margin: 20px;
+}
+
+#Inicio h1 {
+    text-align:center;
+    
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+   background-color: whitesmoke;
+}
+
+#Inicio{
+   background-color: #cbe4f3;;
+    margin: 30px;
+    padding: 20px;
+}
+
+#sobre h1{
+    text-align: center;
+}
+#azul{
+    color: #2828cc;
+}
+#sobre{
+   background-color: #cbe4f3;
+    margin: 30px;
+    padding: 30px;
+}
+#Serviços h1{
+    color: rgb(19, 19, 131);
+    text-align: center;
+}
+
+#desenvolvimento_web{
+   background-color: #cbe4f3;;
+    padding: 2px
+   
+}
+
+#desenvolvimento_sis{
+    background-color: #cbe4f3;
+    
+}
+#BCD{
+   background-color: #cbe4f3;
+}
+#Consultoria_tec{
+   background-color: #cbe4f3;
+}
+#equipe{
+    text-align: center;
+}
+
+
+#ana{
+   background-color: #cbe4f3;
+   margin: 30px;
+}
+#equipe{
+   background-color: white;
+}
+
+#Carlos{
+    background-color: #cbe4f3;
+   margin: 30px;
+}
+#Mariana{
+     background-color: #cbe4f3;
+   margin: 30px;
+}
+
+#projetos h1 {
+    text-align: center;
+    background-color: white;
+}
+
+#vendas{
+    background-color: #cbe4f3;
+   margin: 30px;
+
+}
+
+#app{
+    background-color: #cbe4f3;
+   margin: 30px;
+}
+
+#projetos{
+    background-color: white;
+}
+
+#site{
+    background-color: #cbe4f3;
+   margin: 30px;
+}
+
+#contatos h2 {
+    text-align: center;
+}
+
+#contatos{
+    background-color: white;
+}
+
+button{
+    background-color: rgb(44, 44, 192);
+    width: 150px;
+    height: 30px;
+    color: white;
+    padding: 1px;
+    
+}
+
+footer{
+    background-color: #2828cc;
+    text-align: center;
+    color: white;
+}
+#equipe_hz{
+    width: 650px;
+    
+    
+}
+#equipe{
+    text-align: center;
+    width: 650px;
+
+}
+
+#ANA{
+    width: 400px;
+}
+#MULHER{
+    width: 400px;
+}
+
+#CARLOS{
+    width: 400px;
+}
+#VENDAS{
+    width: 683px;
+}

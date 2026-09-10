@@ -1,0 +1,281 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1046{\fonttbl{\f0\fnil MS Sans Serif;}{\f1\fnil\fcharset0 MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\b\f0\fs16 001 - Rela\f1\'e7\'e3o: \cf2\b0 Ajudar\cf1\b 
+\par \cf0\b0\f0 Os funcionarios s\f1\'e3o responsaveis em ajudar todos os clientes
+\par \f0 
+\par \cf1\b 002 - Atributo: \cf2\b0 CNPJ\cf1\b 
+\par \cf0\b0 
+\par tipo de dado: Varchar
+\par campo obrigatorio: not null
+\par unico : unique 
+\par \cf1\b 003 - Atributo: \cf2\b0 CPF\cf1\b 
+\par \cf0\b0 
+\par tipo de dado: Varchar
+\par campo obrigatorio: not null
+\par unico : unique 
+\par \cf1\b 004 - Atributo: \cf2\b0 Classificacao_Marca\cf1\b 
+\par \cf0\b0 tipo de dado: Varchar
+\par campo obrigatorio: not null 
+\par \cf1\b 005 - Entidade: \cf2\b0 Clientes\cf1\b 
+\par \cf0\b0 Armazenamento de dados de clientes
+\par 
+\par \cf1\b 006 - Atributo: \cf2\b0 Custo\cf1\b 
+\par \cf0\b0 tipo de dado : decimal
+\par campo obrigatorio: not null
+\par 
+\par \cf1\b 007 - Rela\f1\'e7\'e3o: \cf2\b0 DIstribuicao\cf1\b 
+\par \cf0\b0\f0 Distribui pe\f1\'e7as para a empresa
+\par \f0 
+\par \cf1\b 008 - Atributo: \cf2\b0 Data_cadastro\cf1\b 
+\par \cf0\b0 
+\par tipo de dado: Timestamp
+\par campo obrigatorio: not null 
+\par \cf1\b 009 - Atributo: \cf2\b0 Email\cf1\b 
+\par \cf0\b0 tipo de dado: Varchar
+\par campo obrigatorio: not null 
+\par \cf1\b 010 - Atributo: \cf2\b0 Fornecedora_peca\cf1\b 
+\par \cf0\b0 tipo de dado: Varchar
+\par campo obrigatorio: not null 
+\par \cf1\b 011 - Entidade: \cf2\b0 Funcionarios\cf1\b 
+\par \cf0\b0 Armazenamento de dados de funcionarios da oficina 
+\par \cf1\b 012 - Atributo: \cf2\b0 Hora\cf1\b 
+\par \cf0\b0 
+\par tipo de dado: TimeStamp
+\par campo obrigatorio: not null 
+\par \cf1\b 013 - Atributo: \cf2\b0 Hora\cf1\b 
+\par \cf0\b0 tipo de dado : datetime
+\par campo obrigatorio: not null 
+\par 
+\par \cf1\b 014 - Atributo: \cf2\b0 Hora_solicitacao\cf1\b 
+\par \cf0\b0 
+\par tipo de dado: darteTime
+\par campo obrigatorio: not null 
+\par \cf1\b 015 - Atributo: \cf2\b0 Horas_trabalhadas\cf1\b 
+\par \cf0\b0 
+\par tipo de dado: Time
+\par campo obrigatorio: not null 
+\par \cf1\b 016 - Atributo: \cf2\b0 Id_cliente\cf1\b 
+\par \cf0\b0 
+\par tipo de dado : int 
+\par campo atribuido :primary key
+\par auto incrementa
+\par 
+\par \cf1\b 017 - Atributo: \cf2\b0 Id_fornecedor\cf1\b 
+\par \cf0\b0 
+\par tipo de dado : int 
+\par campo atribuido :primary key
+\par auto incrementa
+\par 
+\par \cf1\b 018 - Atributo: \cf2\b0 Id_funcionario\cf1\b 
+\par \cf0\b0 
+\par tipo de dado : int 
+\par campo atribuido :primary key
+\par auto incrementa
+\par 
+\par \cf1\b 019 - Atributo: \cf2\b0 Id_marca\cf1\b 
+\par \cf0\b0 
+\par tipo de dado : int 
+\par campo atribuido :primary key
+\par auto incrementa
+\par 
+\par \cf1\b 020 - Atributo: \cf2\b0 Id_modelo\cf1\b 
+\par \cf0\b0 
+\par tipo de dado : int 
+\par campo atribuido :primary key
+\par auto incrementa
+\par 
+\par \cf1\b 021 - Atributo: \cf2\b0 Id_ordem\cf1\b 
+\par \cf0\b0 
+\par tipo de dado : int 
+\par campo atribuido :primary key
+\par auto incrementa
+\par 
+\par \cf1\b 022 - Atributo: \cf2\b0 Id_peca\cf1\b 
+\par \cf0\b0 
+\par tipo de dado : int 
+\par campo atribuido :primary key
+\par auto incrementa
+\par 
+\par \cf1\b 023 - Atributo: \cf2\b0 Id_servico\cf1\b 
+\par \cf0\b0 
+\par tipo de dado : int 
+\par campo atribuido :primary key
+\par auto incrementa
+\par 
+\par \cf1\b 024 - Atributo: \cf2\b0 Id_transacao\cf1\b 
+\par \cf0\b0 
+\par tipo de dado : int 
+\par campo atribuido :primary key
+\par auto incrementa
+\par 
+\par \cf1\b 025 - Atributo: \cf2\b0 Id_ve\f1\'edculo\cf1\b 
+\par \cf0\b0\f0 
+\par tipo de dado : int 
+\par campo atribuido :primary key
+\par auto incrementa
+\par 
+\par \cf1\b 026 - Atributo: \cf2\b0 Localizacao\cf1\b 
+\par \cf0\b0 tipo de dado: Varchar
+\par campo obrigatorio: not null 
+\par \cf1\b 027 - Atributo: \cf2\b0 Marca\cf1\b 
+\par \cf0\b0 tipo de dado: Varchar
+\par campo obrigatorio: not null 
+\par \cf1\b 028 - Atributo: \cf2\b0 Marca_veiculo\cf1\b 
+\par \cf0\b0 tipo de dado: Varchar
+\par campo obrigatorio: not null 
+\par \cf1\b 029 - Entidade: \cf2\b0 Marcas\cf1\b 
+\par \cf0\b0 Armazenamento de dados de marcas da oficina
+\par 
+\par \cf1\b 030 - Atributo: \cf2\b0 Medoto\cf1\b 
+\par \cf0\b0 tipo de dado: Varchar
+\par campo obrigatorio: not null 
+\par \cf1\b 031 - Atributo: \cf2\b0 Modelo_veiculo\cf1\b 
+\par \cf0\b0 tipo de dado: Varchar
+\par campo obrigatorio: not null 
+\par \cf1\b 032 - Entidade: \cf2\b0 Modelos\cf1\b 
+\par \cf0\b0 Armazenamento de dados de modelos da oficina
+\par 
+\par \cf1\b 033 - Atributo: \cf2\b0 Motivo_pagamento\cf1\b 
+\par \cf0\b0 tipo de dado: Varchar 
+\par \cf1\b 034 - Atributo: \cf2\b0 Nacionalidade\cf1\b 
+\par \cf0\b0 tipo de dado: Varchar
+\par campo obrigatorio: not null 
+\par \cf1\b 035 - Atributo: \cf2\b0 Nome_Modelo\cf1\b 
+\par \cf0\b0 tipo de dado: Varchar
+\par campo obrigatorio: not null 
+\par \cf1\b 036 - Atributo: \cf2\b0 Nome_fornecedor\cf1\b 
+\par \cf0\b0 tipo de dado: Varchar
+\par campo obrigatorio: not null 
+\par \cf1\b 037 - Atributo: \cf2\b0 Nome_fun\cf1\b 
+\par \cf0\b0 tipo de dado: Varchar
+\par campo obrigatorio: not null 
+\par \cf1\b 038 - Atributo: \cf2\b0 Nome_marca\cf1\b 
+\par \cf0\b0 tipo de dado: Varchar
+\par campo obrigatorio: not null 
+\par \cf1\b 039 - Atributo: \cf2\b0 Nome_veiculo\cf1\b 
+\par \cf0\b0 tipo de dado: Varchar
+\par campo obrigatorio: not null 
+\par \cf1\b 040 - Rela\f1\'e7\'e3o: \cf2\b0 Pagar\cf1\b 
+\par \cf0\b0\f0 Pagamento das ordens de servi\f1\'e7os
+\par \f0 
+\par \cf1\b 041 - Atributo: \cf2\b0 Peso_peca\cf1\b 
+\par \cf0\b0 
+\par tipo de dado : float
+\par campo obrigatorio: not null 
+\par \cf1\b 042 - Rela\f1\'e7\'e3o: \cf2\b0 Possuir\cf1\b 
+\par \cf0\b0\f0 Todos os veiculos possuem marca
+\par 
+\par \cf1\b 043 - Rela\f1\'e7\'e3o: \cf2\b0 Precisa\cf1\b 
+\par \cf0\b0\f0 Para realizar um servi\f1\'e7o a oficina precisa de pe\'e7a
+\par \f0 
+\par \cf1\b 044 - Atributo: \cf2\b0 Preco\cf1\b 
+\par \cf0\b0 tipo de dado : decimal
+\par campo obrigatorio: not null
+\par 
+\par \cf1\b 045 - Atributo: \cf2\b0 Preco_peca\cf1\b 
+\par \cf0\b0 tipo de dado : decimal
+\par campo obrigatorio: not null
+\par 
+\par \cf1\b 046 - Atributo: \cf2\b0 Preco_serv\cf1\b 
+\par \cf0\b0 tipo de dado : decimal
+\par campo obrigatorio: not null
+\par 
+\par \cf1\b 047 - Atributo: \cf2\b0 Preco_ve\f1\'edculo\cf1\b 
+\par \cf0\b0\f0 tipo de dado : decimal
+\par campo obrigatorio: not null
+\par 
+\par \cf1\b 048 - Rela\f1\'e7\'e3o: \cf2\b0 Prestar\cf1\b 
+\par \cf0\b0\f0 O funcionario Presta servi\f1\'e7o \'e0 empresa
+\par \f0 
+\par \cf1\b 049 - Atributo: \cf2\b0 Sal\f1\'e1rio\cf1\b 
+\par \cf0\b0\f0 tipo de dado : decimal
+\par campo obrigatorio: not null
+\par 
+\par \cf1\b 050 - Entidade: \cf2\b0 Servicos\cf1\b 
+\par \cf0\b0 Armazenamento de dados de servi\f1\'e7os da oficina
+\par \f0 
+\par \cf1\b 051 - Atributo: \cf2\b0 Setor\cf1\b 
+\par \cf0\b0 tipo de dado: Varchar
+\par campo obrigatorio: not null 
+\par \cf1\b 052 - Atributo: \cf2\b0 Setor\cf1\b 
+\par \cf0\b0 tipo de dado: Varchar
+\par campo obrigatorio: not null 
+\par \cf1\b 053 - Rela\f1\'e7\'e3o: \cf2\b0 Solicita\cf1\b 
+\par \cf0\b0\f0 Cliente solicita o trabalho da oficina
+\par 
+\par \cf1\b 054 - Atributo: \cf2\b0 Tamanho_peca\cf1\b 
+\par \cf0\b0 tipo de dado: Varchar
+\par campo obrigatorio: not null 
+\par \cf1\b 055 - Atributo: \cf2\b0 Telefone\cf1\b 
+\par \cf0\b0 tipo de dado: Varchar
+\par campo obrigatorio: not null 
+\par \cf1\b 056 - Atributo: \cf2\b0 Telefone\cf1\b 
+\par \cf0\b0 tipo de dado: Varchar
+\par campo obrigatorio: not null 
+\par \cf1\b 057 - Atributo: \cf2\b0 Telefone_Contato\cf1\b 
+\par \cf0\b0 tipo de dado: Varchar
+\par campo obrigatorio: not null 
+\par \cf1\b 058 - Atributo: \cf2\b0 Tempo_gasto\cf1\b 
+\par \cf0\b0 
+\par tipo de dado: datetime
+\par campo obrigatorio: not null 
+\par \cf1\b 059 - Atributo: \cf2\b0 Tempo_serv\cf1\b 
+\par \cf0\b0 
+\par tipo de dado: Time
+\par campo obrigatorio: not null 
+\par \cf1\b 060 - Atributo: \cf2\b0 Tipo_serv\cf1\b 
+\par \cf0\b0 tipo de dado: Varchar
+\par campo obrigatorio: not null 
+\par \cf1\b 061 - Atributo: \cf2\b0 Tipo_veiculo\cf1\b 
+\par \cf0\b0 tipo de dado: Varchar
+\par campo obrigatorio: not null 
+\par \cf1\b 062 - Atributo: \cf2\b0 Valor\cf1\b 
+\par \cf0\b0 tipo de dado : decimal
+\par campo obrigatorio: not null
+\par 
+\par \cf1\b 063 - Entidade: \cf2\b0 Ve\f1\'edculos\cf1\b 
+\par \cf0\b0\f0 Armazenamento de dados de veiculos da oficina
+\par 
+\par \cf1\b 064 - Atributo: \cf2\b0 cor_modelo\cf1\b 
+\par \cf0\b0 tipo de dado: Varchar
+\par campo obrigatorio: not null 
+\par \cf1\b 065 - Atributo: \cf2\b0 emai_contato\cf1\b 
+\par \cf0\b0 tipo de dado: Varchar
+\par campo obrigatorio: not null 
+\par \cf1\b 066 - Atributo: \cf2\b0 email\cf1\b 
+\par \cf0\b0 tipo de dado: Varchar
+\par campo obrigatorio: not null 
+\par \cf1\b 067 - Entidade: \cf2\b0 fornecedores\cf1\b 
+\par \cf0\b0 Armazenamento de dados de fornecedores da oficina
+\par 
+\par \cf1\b 068 - Atributo: \cf2\b0 nome_cliente\cf1\b 
+\par \cf0\b0 tipo de dado: Varchar
+\par campo obrigatorio: not null 
+\par \cf1\b 069 - Atributo: \cf2\b0 nome_pagante\cf1\b 
+\par \cf0\b0 tipo de dado: Varchar
+\par campo obrigatorio: not null 
+\par \cf1\b 070 - Atributo: \cf2\b0 nome_responsavel\cf1\b 
+\par \cf0\b0 tipo de dado: Varchar
+\par campo obrigatorio: not null 
+\par \cf1\b 071 - Entidade: \cf2\b0 ordens de servico\cf1\b 
+\par \cf0\b0 Armazenamento de dados de servi\f1\'e7os feitos da oficina
+\par \f0 
+\par \cf1\b 072 - Entidade: \cf2\b0 pagamentos\cf1\b 
+\par \cf0\b0 Armazenamento de dados de pagamentos
+\par 
+\par \cf1\b 073 - Entidade: \cf2\b0 pecas\cf1\b 
+\par \cf0\b0 Armazenamento de dados de pe\f1\'e7as da oficina
+\par \f0 
+\par \cf1\b 074 - Atributo: \cf2\b0 preco_modelo\cf1\b 
+\par \cf0\b0 
+\par \cf1\b 075 - Atributo: \cf2\b0 telefone\cf1\b 
+\par \cf0\b0 
+\par \cf1\b 076 - Atributo: \cf2\b0 tipo_modelo\cf1\b 
+\par \cf0\b0 tipo de dado: Varchar
+\par campo obrigatorio: not null 
+\par \cf1\b 077 - Atributo: \cf2\b0 tipo_peca\cf1\b 
+\par \cf0\b0 tipo de dado: Varchar
+\par campo obrigatorio: not null 
+\par 
+\par }
+ 
