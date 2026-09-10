@@ -14,4 +14,4 @@ for ( let i = 0; i <pecas; i++){
     
 }
 
-console.log(`Total de pecas: ${[pecas]}\n Numeros de serie: ${pecasDefeituosas}`)
+console.log(`Total de pecas: ${[pecas]}\nNumeros de serie: ${pecasDefeituosas.join("|")}`)

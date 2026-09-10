@@ -13,10 +13,12 @@ while (true){
         console.log(listaVisitantes)
         break
 
-    } else{
+    } else if(pergunta ===true){
         const nome = readline.question("Qual é o seu nome?: ")
         const empresa = readline.question("Qual é a empresa? ")
-        const organizacao = (`nome:   ${nome}     empresa:   ${empresa} |`)
+        const organizacao = (`nome:   ${nome } |     empresa:  ${empresa} |`)
         listaVisitantes.push(organizacao)
+    }else{
+        console.log("Erro digite somente [y/n]")
     }
 }
