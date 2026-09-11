@@ -18,3 +18,12 @@ const valortotal = funcoes.calcularTotal(Pecas,precosTrabalho);
 const garantia = funcoes.garantia(meses);
 
 console.log(`Nome da maquina: ${nome} \nPreco por mao de obra: ${precosTrabalho} \n Preco Total com pecas: ${valortotal} \n Status do produto: ${garantia}`)
+
+
+
+
+
+
+
+
+
