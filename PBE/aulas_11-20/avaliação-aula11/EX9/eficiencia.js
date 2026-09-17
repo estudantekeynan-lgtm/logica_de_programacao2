@@ -7,7 +7,8 @@ function calcularEficiencia(real,prevista){
 function ClassificarEficiencia(percentual){
     if (percentual>=90){
         return ("Meta atingida")
-    } else if(percentual>70&& percentual<90){
+    } else if(percentual>=70&& percentual<90)//Alteracao, esqueci de colocar o = 
+        {
         return ("Atencao!")
     }else{
         return ("Abaixo da meta")
