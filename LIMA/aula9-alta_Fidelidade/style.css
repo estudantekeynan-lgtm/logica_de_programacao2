@@ -1,0 +1,36 @@
+header img{
+    width: 115px;
+    height: 115px;
+    display:block;
+    margin-left: auto;
+    margin-left: 50%;
+   
+    
+}
+nav {
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    color: #5A321B;
+    
+}
+nav a{
+    color: #5A321B;
+}
+/* header{
+    border: solid #5A321B;
+    
+} */
+body{
+    background-color: #F4E4D4;
+    
+}
+.creme{
+    
+    color: #5A321B;
+}
+.titulo{
+    letter-spacing: -2px;
+    word-spacing: 0px;
+    
+}
