@@ -49,3 +49,44 @@ FOREIGN KEY(Id_forncedor) REFERENCES Forncedor (Id_forncedor),
 FOREIGN KEY(Id_produto) REFERENCES Produto (Id_produto)
 );
 
+-- Desafios
+
+
+
+-- -- Questão 1
+
+-- --Categoria  ---- possui ---- Produto 
+--   (1,n)                       (1,1) 
+
+
+
+
+-- -- Questão 2
+
+
+
+-- -- Funcionário ----possui ----Pedidos
+-- (1,n)                      (1,1)
+
+
+-- -- Questão 3
+
+
+-- -- Fornecedor ----Possui ----Produtos
+
+--    (1,n)                      (1,n)
+
+
+
+
+-- -- Questão 4   
+
+-- -- Mesa  ----Possui ----Reserva
+--    (0,n)                (1,1)   
+
+
+-- -- Questão 5 
+
+-- -- Pedido ----Possui ---- Item
+
+--    (1,n)                  (1,1)  
