@@ -1,0 +1,312 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1046{\fonttbl{\f0\fnil MS Sans Serif;}{\f1\fnil\fcharset0 MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\b\f0\fs16 001 - Atributo: \cf2\b0 CPF\cf1\b 
+\par \cf0\b0 
+\par tipo de dado: Varchar
+\par campo obrigatorio: not null
+\par unico : unique 
+\par \cf1\b 002 - Atributo: \cf2\b0 CPF\cf1\b 
+\par \cf0\b0 
+\par tipo de dado: Varchar
+\par campo obrigatorio: not null
+\par unico : unique 
+\par \cf1\b 003 - Atributo: \cf2\b0 Cargo\cf1\b 
+\par \cf0\b0 
+\par tipo de dado: Varchar
+\par campo obrigatorio: not null
+\par 
+\par \cf1\b 004 - Entidade: \cf2\b0 Categoria\cf1\b 
+\par \cf0\b0 tabela: Categoria
+\par 
+\par \cf1\b 005 - Entidade: \cf2\b0 Clientes\cf1\b 
+\par \cf0\b0 tabela:CLientes
+\par 
+\par \cf1\b 006 - Atributo: \cf2\b0 Cpf\cf1\b 
+\par \cf0\b0 tipo de dado: vachar
+\par not null
+\par 
+\par \cf1\b 007 - Atributo: \cf2\b0 Dadata_cadastro\cf1\b 
+\par \cf0\b0 tipo: date
+\par nao pode faltar: nor null 
+\par 
+\par \cf1\b 008 - Entidade: \cf2\b0 Delivery\cf1\b 
+\par \cf0\b0 tabela:Delivery
+\par 
+\par \cf1\b 009 - Atributo: \cf2\b0 Email\cf1\b 
+\par \cf0\b0 tipo de dado: Varchar
+\par campo obrigatorio: not null
+\par unico : unique
+\par 
+\par \cf1\b 010 - Atributo: \cf2\b0 Endereco_entrega\cf1\b 
+\par \cf0\b0 
+\par 
+\par tipo de dado: Varchar
+\par campo obrigatorio: not null
+\par 
+\par \cf1\b 011 - Rela\f1\'e7\'e3o: \cf2\b0 Entrega\cf1\b 
+\par \cf0\b0\f0 Um funcionario pode lever varios deliveries
+\par 
+\par \cf1\b 012 - Entidade: \cf2\b0 Estoque\cf1\b 
+\par \cf0\b0 tabela:Estoque
+\par 
+\par \cf1\b 013 - Entidade associativa: \cf2\b0 Ficha_T\f1\'e9cnica\cf1\b 
+\par \cf0\b0\f0 Controlando quanto insumo cada produto gasta ao ser vendido
+\par 
+\par \cf1\b 014 - Atributo: \cf2\b0 Forma_pagamento\cf1\b 
+\par \cf0\b0 tipo de dado: Varchar
+\par campo obrigatorio: not null
+\par 
+\par \cf1\b 015 - Entidade: \cf2\b0 Fornecedor\cf1\b 
+\par \cf0\b0 tabela:Fornecedor
+\par 
+\par \cf1\b 016 - Entidade: \cf2\b0 Funcionarios\cf1\b 
+\par \cf0\b0 tabela: funcionarios
+\par 
+\par \cf1\b 017 - Rela\f1\'e7\'e3o: \cf2\b0 Gera\cf1\b 
+\par \cf0\b0\f0 Nem todo pedido vai para entrega, mas todo delivery \f1\'e9 obrigatoriamente um pedido
+\par \f0 
+\par \cf1\b 018 - Atributo: \cf2\b0 Hora\cf1\b 
+\par \cf0\b0 
+\par tipo de dado: Time
+\par campo obrigatorio: not null
+\par 
+\par \cf1\b 019 - Atributo: \cf2\b0 ID_delivery\cf1\b 
+\par \cf0\b0 
+\par \cf1\b 020 - Atributo: \cf2\b0 ID_funcionarios\cf1\b 
+\par \cf0\b0 
+\par tipo de dado : int 
+\par campo atribuido :primary key
+\par auto incrementa 
+\par \cf1\b 021 - Atributo: \cf2\b0 ID_insumo\cf1\b 
+\par \cf0\b0 
+\par tipo de dado : int 
+\par campo atribuido :primary key
+\par auto incrementa 
+\par \cf1\b 022 - Atributo: \cf2\b0 ID_produtos\cf1\b 
+\par \cf0\b0 
+\par tipo de dado : int 
+\par campo atribuido :primary key
+\par auto incrementa 
+\par \cf1\b 023 - Atributo: \cf2\b0 Id_cliente\cf1\b 
+\par \cf0\b0 tipo de dado : int 
+\par campo atribuido :primary key
+\par auto incrementa
+\par 
+\par \cf1\b 024 - Atributo: \cf2\b0 Id_compra\cf1\b 
+\par \cf0\b0 
+\par tipo de dado : int 
+\par campo atribuido :primary key
+\par auto incrementa 
+\par \cf1\b 025 - Atributo: \cf2\b0 Id_pedido\cf1\b 
+\par \cf0\b0 
+\par tipo de dado : int 
+\par campo atribuido :primary key
+\par auto incrementa 
+\par \cf1\b 026 - Atributo: \cf2\b0 Marca\cf1\b 
+\par \cf0\b0 tipo de dado: Varchar
+\par campo obrigatorio: not null
+\par 
+\par \cf1\b 027 - Atributo: \cf2\b0 Nome\cf1\b 
+\par \cf0\b0 tipo de dado: Varchar
+\par campo obrigatorio: not null
+\par 
+\par \cf1\b 028 - Atributo: \cf2\b0 Nome\cf1\b 
+\par \cf0\b0 tipo de dado: Varchar
+\par campo obrigatorio: not null
+\par 
+\par \cf1\b 029 - Atributo: \cf2\b0 Nome\cf1\b 
+\par \cf0\b0 
+\par tipo de dado: Varchar
+\par campo obrigatorio: not null
+\par 
+\par \cf1\b 030 - Atributo: \cf2\b0 Nome\cf1\b 
+\par \cf0\b0 
+\par tipo de dado: Varchar
+\par campo obrigatorio: not null 
+\par \cf1\b 031 - Entidade: \cf2\b0 Pagamento\cf1\b 
+\par \cf0\b0 tabela:Pagamento
+\par 
+\par \cf1\b 032 - Rela\f1\'e7\'e3o: \cf2\b0 Participa\cf1\b 
+\par \cf0\b0\f0 rela\f1\'e7\'e3o de1 para 1. Cada cliente tem uma \'fanica conta de pontos
+\par \f0 
+\par \cf1\b 033 - Entidade: \cf2\b0 Pedidos\cf1\b 
+\par \cf0\b0 tabela: pedidos
+\par 
+\par \cf1\b 034 - Rela\f1\'e7\'e3o: \cf2\b0 Possui\cf1\b 
+\par \cf0\b0\f0 rela\f1\'e7\'e3o de fazer o pagamento do pedido
+\par \f0 
+\par \cf1\b 035 - Atributo: \cf2\b0 Preco_historico\cf1\b 
+\par \cf0\b0 tipo de dado: decimal
+\par not null
+\par 
+\par \cf1\b 036 - Entidade: \cf2\b0 Produtos\cf1\b 
+\par \cf0\b0 tabela:Produtos
+\par 
+\par \cf1\b 037 - Entidade: \cf2\b0 Programa de fidelidade\cf1\b 
+\par \cf0\b0 tabela:Programa de fidelidades
+\par 
+\par \cf1\b 038 - Atributo: \cf2\b0 Quantidade\cf1\b 
+\par \cf0\b0 tipo de dado: int
+\par not null
+\par 
+\par \cf1\b 039 - Atributo: \cf2\b0 Tipo_pedido\cf1\b 
+\par \cf0\b0 tipo de dado: Varchar
+\par campo obrigatorio: not null
+\par 
+\par \cf1\b 040 - Atributo: \cf2\b0 Unidade_medida\cf1\b 
+\par \cf0\b0 tipo de dado: Varchar
+\par campo obrigatorio: not null
+\par 
+\par \cf1\b 041 - Atributo: \cf2\b0 Valor_pedido\cf1\b 
+\par \cf0\b0 
+\par \cf1\b 042 - Rela\f1\'e7\'e3o: \cf2\b0 adicionar\cf1\b 
+\par \cf0\b0\f0 rela\f1\'e7\'e3o de adicionar produtos no estoque \f0 
+\par \cf1\b 043 - Rela\f1\'e7\'e3o: \cf2\b0 atende\cf1\b 
+\par \cf0\b0\f0 rela\f1\'e7\'e3o de ajudar os clientes com o que precisarem
+\par \f0 
+\par \cf1\b 044 - Atributo: \cf2\b0 categoria\cf1\b 
+\par \cf0\b0 tipo de dado : float
+\par campo obrigatorio: not null
+\par 
+\par \cf1\b 045 - Atributo: \cf2\b0 data\cf1\b 
+\par \cf0\b0 
+\par tipo de dado : date
+\par campo obrigatorio: not null 
+\par 
+\par \cf1\b 046 - Atributo: \cf2\b0 data_admissao\cf1\b 
+\par \cf0\b0 tipo de dado : date
+\par campo obrigatorio: not null 
+\par 
+\par \cf1\b 047 - Atributo: \cf2\b0 data_cadastro\cf1\b 
+\par \cf0\b0 tipo de dado : date
+\par campo obrigatorio: not null 
+\par 
+\par \cf1\b 048 - Atributo: \cf2\b0 data_hora\cf1\b 
+\par \cf0\b0 tipo de dado: datetime
+\par not null 
+\par 
+\par \cf1\b 049 - Atributo: \cf2\b0 data_hora_pagamento\cf1\b 
+\par \cf0\b0 
+\par tipo de dado: DateTime
+\par campo obrigatorio: not null
+\par 
+\par \cf1\b 050 - Atributo: \cf2\b0 descricao\cf1\b 
+\par \cf0\b0 tipo de dado: Varchar
+\par campo obrigatorio: not null
+\par 
+\par \cf1\b 051 - Atributo: \cf2\b0 entrega\cf1\b 
+\par \cf0\b0 
+\par tipo de dado: Varchar
+\par campo obrigatorio: not null
+\par 
+\par \cf1\b 052 - Atributo: \cf2\b0 id_categoria\cf1\b 
+\par \cf0\b0 
+\par tipo de dado : int 
+\par campo atribuido :primary key
+\par auto incrementa 
+\par \cf1\b 053 - Atributo: \cf2\b0 id_fidelidade\cf1\b 
+\par \cf0\b0 
+\par tipo de dado : int 
+\par campo atribuido :primary key
+\par auto incrementa 
+\par \cf1\b 054 - Atributo: \cf2\b0 id_pagamento\cf1\b 
+\par \cf0\b0 
+\par tipo de dado : int 
+\par campo atribuido :primary key
+\par auto incrementa 
+\par \cf1\b 055 - Entidade associativa: \cf2\b0 item_Pedido\cf1\b 
+\par \cf0\b0 
+\par \cf1\b 056 - Atributo: \cf2\b0 localizacao\cf1\b 
+\par \cf0\b0 tipo de dado: Varchar
+\par campo obrigatorio: not null
+\par 
+\par \cf1\b 057 - Atributo: \cf2\b0 nome\cf1\b 
+\par \cf0\b0 tipo de dado: Varchar
+\par campo obrigatorio: not null
+\par 
+\par \cf1\b 058 - Atributo: \cf2\b0 nome_insumo\cf1\b 
+\par \cf0\b0 tipo de dado: Varchar
+\par campo obrigatorio: not null
+\par 
+\par \cf1\b 059 - Rela\f1\'e7\'e3o: \cf2\b0 pagar\cf1\b 
+\par \cf0\b0\f0 rela\f1\'e7\'e3o de pagamento
+\par \f0 
+\par \cf1\b 060 - Atributo: \cf2\b0 pontos\cf1\b 
+\par \cf0\b0 
+\par tipo de dado : int
+\par campo obrigatorio: not null
+\par 
+\par \cf1\b 061 - Atributo: \cf2\b0 preco\cf1\b 
+\par \cf0\b0 
+\par tipo de dado : decimal
+\par campo obrigatorio: not null 
+\par \cf1\b 062 - Atributo: \cf2\b0 preco_unitario\cf1\b 
+\par \cf0\b0 tipo de dado : decimal
+\par campo obrigatorio: not null
+\par 
+\par \cf1\b 063 - Atributo: \cf2\b0 qtd_estoque\cf1\b 
+\par \cf0\b0 
+\par tipo de dado : decimal
+\par campo obrigatorio: not null
+\par 
+\par \cf1\b 064 - Atributo: \cf2\b0 quantidade_atual\cf1\b 
+\par \cf0\b0 tipo de dado : int
+\par campo obrigatorio: not null 
+\par \cf1\b 065 - Atributo: \cf2\b0 quantidade_gasta\cf1\b 
+\par \cf0\b0 tipo de dado: int
+\par not null
+\par 
+\par \cf1\b 066 - Atributo: \cf2\b0 quantidade_minima\cf1\b 
+\par \cf0\b0 tipo de dado : int
+\par campo obrigatorio: not null 
+\par \cf1\b 067 - Rela\f1\'e7\'e3o: \cf2\b0 realiza\cf1\b 
+\par \cf0\b0\f0 
+\par \cf1\b 068 - Atributo: \cf2\b0 salario\cf1\b 
+\par \cf0\b0 tipo de dado: decimal
+\par not null
+\par 
+\par \cf1\b 069 - Atributo: \cf2\b0 setor\cf1\b 
+\par \cf0\b0 tipo de dado: Varchar
+\par campo obrigatorio: not null
+\par 
+\par \cf1\b 070 - Atributo: \cf2\b0 status_delivery\cf1\b 
+\par \cf0\b0 tipo de dado: boolean default true
+\par not null
+\par 
+\par \cf1\b 071 - Atributo: \cf2\b0 status_pagamento\cf1\b 
+\par \cf0\b0 tipo de dado : boolean dafault False
+\par not null
+\par 
+\par \cf1\b 072 - Atributo: \cf2\b0 status_pedido\cf1\b 
+\par \cf0\b0 tipo de dado : int
+\par campo obrigatorio: not null
+\par 
+\par \cf1\b 073 - Atributo: \cf2\b0 tamanho\cf1\b 
+\par \cf0\b0 tipo de dado : decimal
+\par campo obrigatorio: not null 
+\par \cf1\b 074 - Atributo: \cf2\b0 tamanho\cf1\b 
+\par \cf0\b0 
+\par tipo de dado : decimal
+\par campo obrigatorio: not null 
+\par \cf1\b 075 - Atributo: \cf2\b0 taxa_entrega\cf1\b 
+\par \cf0\b0 tipo de dado decimal
+\par not null
+\par 
+\par \cf1\b 076 - Atributo: \cf2\b0 telefone\cf1\b 
+\par \cf0\b0 tipo de dado: Varchar
+\par campo obrigatorio: not null
+\par  
+\par \cf1\b 077 - Atributo: \cf2\b0 tipo_pedido\cf1\b 
+\par \cf0\b0 tipo de dado = varchar
+\par not null = n\f1\'e3o pode ser nulo
+\par \f0 
+\par \cf1\b 078 - Atributo: \cf2\b0 tipo_produto\cf1\b 
+\par \cf0\b0 tipo de dado: Varchar
+\par campo obrigatorio: not null
+\par 
+\par \cf1\b 079 - Atributo: \cf2\b0 valor_pagamento\cf1\b 
+\par \cf0\b0 tipo de dado : decimal
+\par campo obrigatorio: not null 
+\par 
+\par }
+ 
