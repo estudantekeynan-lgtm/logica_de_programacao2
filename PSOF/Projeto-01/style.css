@@ -54,7 +54,7 @@ button{
 
 #Mecanica:hover{
     background-color: #ffffff;
-    color: #ff4800f5;
+    color: #0000;
 }
 
 .laranja{
@@ -62,6 +62,7 @@ button{
     -webkit-text-stroke: 0.3px #ffffff ;
 }
 
-.Mecanica a{
+#Mecanica a{
     color: white;
+    text-decoration: none;
 }
