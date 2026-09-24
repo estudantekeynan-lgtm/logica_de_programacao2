@@ -1,19 +1,19 @@
 nav a{
     color: #ffffff;
+    text-decoration: none;
     
    
 }
 .Menu{
    display: flex;
    justify-content: space-between;
-   
-  
-   height: 75px;
+   margin: 30px;
+    
+    height: 75px;
    
 }
-
-body{
-    background-color: rgb(70, 69, 69);
+hr{
+    margin: 0;
 }
 
 #sobre{
@@ -29,17 +29,39 @@ body{
 }
 
 body{
-    background-image: url(industriA.jpg);
+    background-image: url(Industriaaa.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     min-height: 100vh;
+    
 }
 #sobre h1{
     font-size: 75px;
+    margin: 0;
 }
 
 button{
     width: 160px;
     height: 60px;
+}
+
+#Mecanica{
+    background-color: #ff4800f5;
+    color: #ffffff;
+    border: solid white 0.5px;
+}
+
+#Mecanica:hover{
+    background-color: #ffffff;
+    color: #ff4800f5;
+}
+
+.laranja{
+    color: #ff4800f5;
+    -webkit-text-stroke: 0.3px #ffffff ;
+}
+
+.Mecanica a{
+    color: white;
 }
