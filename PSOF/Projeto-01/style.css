@@ -1,0 +1,45 @@
+nav a{
+    color: #ffffff;
+    
+   
+}
+.Menu{
+   display: flex;
+   justify-content: space-between;
+   
+  
+   height: 75px;
+   
+}
+
+body{
+    background-color: rgb(70, 69, 69);
+}
+
+#sobre{
+   padding: 40px;
+   margin: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    
+   
+
+    
+    
+}
+
+body{
+    background-image: url(industriA.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+#sobre h1{
+    font-size: 75px;
+}
+
+button{
+    width: 160px;
+    height: 60px;
+}
