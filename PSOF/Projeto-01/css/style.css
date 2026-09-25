@@ -1,0 +1,145 @@
+nav a{
+    color: #ffffff;
+    text-decoration: none;
+    
+   
+}
+.Menu{
+   display: flex;
+   justify-content: space-between;
+   margin: 30px;
+    
+    height: 75px;
+   
+}
+hr{
+    margin: 0;
+}
+
+#sobre{
+   padding: 40px;
+   margin: 40px;
+   
+    color: whitesmoke;
+    
+   
+
+    
+    
+}
+#Inicio{
+    background-image: url(Industriaaa.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+body{
+    /* background-image: url(Industriaaa.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh; */
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#sobre h1{
+    font-size: 75px;
+    margin: 0;
+}
+
+button{
+    width: 160px;
+    height: 60px;
+    
+   
+}
+
+#Mecanica{
+    background-color: #4169E1;
+    color: #ffffff;
+    border: solid white 0;
+}
+
+#Mecanica:hover{
+    background-color: #213d92;
+    color: #0000;
+   
+}
+
+.laranja{
+    color: #4169E1;
+    -webkit-text-stroke: 0.3px #062279 ;
+}
+
+#Mecanica a{
+    color: white;
+    text-decoration: none;
+}
+
+footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 150px;
+    
+
+    
+}
+#nome{
+    text-align: center;
+}
+
+#resto{
+     display: flex;
+    justify-content: space-between;
+    margin: 30px;
+   
+    
+}
+#resto img{
+    width: 20px;
+    height: 20px;
+}
+#resto a {
+     text-decoration: none;
+     color: white;
+}
+
+.Menu a:hover{
+    color:#0540ee ;
+    
+}
+/* PAGINA 1 !!!!!!!! */
+
+#mecanica-M{
+   background-image: url(mecanica_topo_escurecido_blur.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   min-height: 100vh;
+}
+
+.Menu-M{
+    display: flex;
+   justify-content: space-between;
+   margin: 30px;
+    
+    height: 75px;
+}
+
+.Menu-M a:hover{
+    color: #4169E1;
+}
+
+#Titulo-M{
+    margin: 0 ;
+}
+.Azul{
+    color:#4169E1 ;
+}
+
+.branco{
+    color: #ffffff;
+}
