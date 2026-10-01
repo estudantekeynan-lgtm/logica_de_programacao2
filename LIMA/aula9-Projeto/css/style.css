@@ -1,5 +1,5 @@
 header{
-    background-image: url(bannerT.png);
+    background-image: url(bannerT_corrigido.png);
     height: 170px;
     background-repeat: no-repeat;
 
@@ -29,6 +29,9 @@ nav {
    
     
 }
+ #inicio  :hover{
+    color: #cf540d;
+}
 nav a{
     color: #ffffff;
      text-decoration: none;
@@ -42,6 +45,10 @@ nav a{
 } */
 body{
     background-color: #F4E4D4;
+     font-family: 'TikTok Sans', sans-serif;
+     font-size: 13px;
+     
+
    
     
 }
@@ -91,6 +98,7 @@ footer{
     color: white;
     display: flex;
     justify-content: space-between;
+    padding: 10px;
     
 }
 body{
@@ -122,4 +130,46 @@ button:hover{
 .cardapio img{
     width: 450px ;
     height: 700px;
+}
+
+.pedro{
+    margin: 30px;
+    text-align: center;
+    border: solid #dbccbd;
+  
+
+}
+
+.pedro img{
+    height: 350px;
+    width: 200px;
+    padding: 10px;
+}
+
+#equipe{
+    margin: 16px;
+    text-align: center;
+    color: #5A321B;
+}
+
+.ana img{
+   height: 350px;
+    width: 200px;
+    padding: 10px;
+}
+
+.ana{
+     margin: 30px;
+    text-align: center;
+    border: solid #dbccbd;
+}
+.chefe img{
+ height: 350px;
+    width: 200px;
+    padding: 10px;
+}
+.chefe{
+margin: 30px;
+    text-align: center;
+    border: solid #dbccbd;
 }

@@ -1,0 +1,25 @@
+.equipe {
+    display: flex;
+    flex-direction:row;
+    gap: 30px;
+    justify-content: space-evenly;
+    justify-items: center;
+    
+}
+.ana{
+    width: 30px;
+    padding: 40px; 
+    /* align-items: flex-end; */
+}
+
+/* flex-start = alinha no começo
+flex-end alinha no fim
+center = centraliza
+space-between = da o mesmo espaçamento entre os conteudos
+space -evenly = centraliza dando espaçamento
+*/
+
+.cards{
+    display: flex;
+    gap: 20px   ;
+}

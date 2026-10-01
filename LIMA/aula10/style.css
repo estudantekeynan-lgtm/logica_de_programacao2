@@ -1,0 +1,97 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.intro {
+    display: flex;
+}
+
+.cursos{
+    display: flex;
+}
+
+.menu{
+    display: flex;
+    /* flex-direction: column; */
+align-items: center;
+padding: 10px 4%;
+
+display: flex;
+    
+gap: 40px;
+margin: 0;
+padding: 0;
+
+}
+
+
+    
+section{
+    display: flex;
+   
+}
+.texto{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+
+    align-items: stretch;
+}
+
+body{
+    margin: 30px;
+    padding: 30px;
+}
+.cartao{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+section ul, li{
+     display: flex;
+    flex-wrap: wrap;
+}
+li{
+    display: flex;
+    flex: 1;
+    padding: 10px;
+}
+.exemplo-b{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.exemplo-b-c,
+.exemplo-b-i {
+    flex: 1;
+}
+.exemplo-b-i{
+    margin: 0 ;
+}
+.exemplo-b-i img{
+    width: 100%;
+    display: block;
+}
+.card-e{
+    display: flex;
+    gap: 23px;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+}
+.card-e > li{
+    flex: 1;
+    min-width: 220px;
+}
+.contato{
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    padding: 60px 16%;
+}
+
+.contato-c, .contato {
+    flex: 1;
+}
