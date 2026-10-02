@@ -1,0 +1,17 @@
+[
+  {
+    "nome": "Torno",
+    "setor": "Mecanica",
+    "status": "Operando"
+  },
+  {
+    "nome": "CNC",
+    "setor": "Mecanica",
+    "status": "Alerta"
+  },
+  {
+    "nome": "Lima",
+    "setor": "Ferramentaria",
+    "status": "Operando"
+  }
+]
