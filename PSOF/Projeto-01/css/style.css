@@ -110,20 +110,20 @@ footer{
 }
 
 .Menu a:hover{
-    color:#0540ee ;
+    color:#3c68ec ;
     
 }
 /* PAGINA 1 !!!!!!!! */
 
-#mecanica-M{
-   background-image: url(mecanica_topo_escurecido_blur.png);
+#Fornecedores{
+   background-image: url(fundo_fornecedores.png);
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
    min-height: 100vh;
 }
 
-.Menu-M{
+.Menu-F{
     display: flex;
    justify-content: space-between;
    margin: 30px;
@@ -131,17 +131,29 @@ footer{
     height: 75px;
 }
 
-.Menu-M a:hover{
+.Menu-F a:hover{
     color: #4169E1;
 }
 
-#Titulo-M{
+#Titulo-F{
     margin: 0 ;
 }
 .Azul{
-    color:#4169E1 ;
+    color:#6789ee ;
 }
 
 .branco{
     color: #ffffff;
+}
+
+.Pesquisa input{
+        width: 300px;
+        height: 30px;
+}
+
+.Pesquisa button{
+    background: none;
+    border: none;
+    width: 30px;
+    font-size: 20px;
 }
