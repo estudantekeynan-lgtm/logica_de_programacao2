@@ -1,0 +1,28 @@
+.solucoes{
+    display: grid;
+    list-style: none;
+    /* grid-template-columns: repeat(2,1fr);  */
+    gap: 24px;
+}
+
+@media (max-width: 640px){
+    .solucoes{
+        grid-template-columns: repeat(3,1fr)  ;
+    }
+}
+
+
+@media (max-width: 540px){
+    .solucoes{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+.solucoes{
+    grid-template-columns: repeat(auto-fit,minmax(450px,1fr));
+
+    /* Utiliza menos regras */
+}
+
+
+/* Por mais que a 2° opção tenha menos regras , acredito que escolheria a 1° por ser mais simples*/
