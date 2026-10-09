@@ -243,6 +243,25 @@ GROUP BY id_categoria;
 
 --Quantidade de produtos por categoria
 
+-- WHERE filtra linhas antes do agrupamento
+-- Having filtra linhas depois do group by
+
+SELECT cidade , COUNT(*) as qtde_clientes
+from clientes
+GROUP BY cidade
+HAVING COUNT(*) >= 2;
+
+--cidade com pelo menos 2 clientes
+
+-- EX 17 resumo de uma consulta completa
+
+SELECT colunas
+from tabela
+where condição 
+GROUP BY coluna_agrupar
+ORDER BY colunas
+LIMIT quantidade
+ 
 
 
 
