@@ -10,15 +10,11 @@
 <header>
     <nav class="Menu-F">
             <a id="I" href="index.html">Inicio</a>
-            <a href ="sobre">Sobre</a>
-            <a href="Mecanica.html">Fornecedores</a>
+            <a href ="index.html">Sobre</a>
+            <a href="fornecedores.html">Fornecedores</a>
             <a href="Contato">Contato</a>
-           
-           
-        </nav>
-</header>
-        <main>
-            <section id="Titulo-F">
+            <a href="categoria"> Categoria</a>
+               <section id="Titulo-F">
                 <article>
                     <h1 class="Azul">
                         Catálogo 
@@ -28,6 +24,10 @@
                     </h1>
                 </article>
             </section>
+        </nav>
+</header>
+        <main>
+        
  
             <section class="Pesquisa">
                 <input type="text"
@@ -35,21 +35,43 @@
                 placeholder="Pesquisar...">
 
 
-                <button onclick="pesquisar()">🔎  </button>
+                <button onclick="pesquisar()">🔎  </button> 
+                
+                <article>
+                    
                 
 
-
-
             </section>
-
+            <section>
+                <article class="card">
+                    <ul class="Fornecedores">
+                        <li id="eletro1"> <img src="img/01_materiais_eletricos_automacao_epis.png" alt=""> eletro</li>
+                        <li id="manutencao1"><img src="img/02_manutencao_hidraulica_pneumatica 1.png" alt="">eletro</li>
+                        <li id="maquinas1"><img src="img/03_maquinas_perifericos_automacao.png" alt=""></li>
+                        <li id="atacado1"><img src="img/04_atacado_materiais_ferragens.png" alt=""></li>
+                        <li id="eletro2"><img src="img/05_materiais_eletricos_automacao_epis_2.png" alt=""></li>
+                        <li id="manutencao2"><img src="img/06_manutencao_hidraulica_pneumatica_2.png" alt=""></li>
+                        <li id="maquinas2"><img src="img/07_maquinas_perifericos_automacao_2.png" alt=""></li>
+                        <li id="atacado2"><img src="img/08_atacado_materiais_ferragens_2.png" alt=""></li>
+                        
+                    </ul>
+                </article>
+            </section>
+   
 
         </main>
 
-         <!-- <footer>
-        <div id="nome">
-            <p >
-🛠️  Dev's Breach
-        </p>
+        <footer class="footer-f">
+        <div>
+
+        </div>
+        <div class="nome-grupo">
+        <p class="devs">Dev's </p>
+        <p class="Breach">Breach</p>
+       
+        </div>
+        <div>
+            <p class="texto-footer">Um projeto acadêmico desenvolvido por alunos do SENAI - LIMEIRA &copy 2026</p>
         </div>
         <div id="resto">
             <p>
@@ -67,9 +89,8 @@
         </div>
            
        
-    </footer> -->
-  
-
+    </footer>
+   
    
 </body>
 </html>
