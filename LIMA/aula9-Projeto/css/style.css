@@ -110,6 +110,7 @@ button{
     width: 200px;
     height: 50px;
     background-color: #5A321B;
+     transition: transform 0.3s ease;
     
 }
 button a {
@@ -118,6 +119,8 @@ button a {
 }
 button:hover{
     background-color: #CD8C66;
+     transform: translateY(-10px);
+    
     
     
 }
@@ -199,4 +202,11 @@ margin: 30px;
 #imagens img{
      width: 300px;
     height: 300px;
+    transition: transform 0.3s ease;
+
+}
+
+
+#imagens img:hover{
+     transform: translateY(-10px);
 }
